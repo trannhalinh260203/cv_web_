@@ -1,0 +1,66 @@
+/* CSS cho container chính */
+.container {
+    display: flex;
+    align-items: flex-start;
+    padding: 20px;
+    gap: 20px; /* Khoảng cách giữa hai cột */
+}
+
+/* CSS cho cột bên trái */
+.left-column {
+    flex: 1;
+    background-color: #ffe7c7; /* Màu nền nhạt */
+    padding: 20px;
+    border-radius: 8px;
+}
+ 
+.left-column h2 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #4a2c00;
+}
+
+/* CSS cho cột bên phải */
+.right-column {
+    flex: 2;
+    padding: 20px;
+    margin-top: 120px; /* Hạ cột phải xuống song song với phần "CONTACT" */
+}
+
+/* Các phần tử bên trong cột phải */Ư
+.right-column h1 {
+    margin-bottom: 20px;
+}
+
+.right-column .section {
+    margin-bottom: 20px;
+}
+
+/* Kiểu cho phần "COURSE PROJECTS" */
+.right-column .course-projects {
+    margin-top: 25px; 
+}
+
+.right-column h2 {
+    font-size: 18px;
+    font-weight: bold;
+    color:#4a2c00;
+}
+
+/* Kiểu cho các tiêu đề phụ và mô tả */
+.right-column .project h3 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.right-column .project p {
+    font-size: 14px;
+}
+
+.profile-pic img {
+    width: 150px; 
+    height: 150px; 
+    border-radius: 50%; 
+    overflow: hidden;
+}
+
